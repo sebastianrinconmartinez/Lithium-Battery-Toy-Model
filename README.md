@@ -6,6 +6,7 @@ Lithium ion batteries are of great importance nowadays, since they're used in da
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/1a3e4e0e-61b6-49bb-a918-2b0453c7f852" />
 Increasing in use of electrical cars has a consequence: increase on lithium demand, as shown in the following plot.
 <img width="1200" height="1000" alt="image" src="https://github.com/user-attachments/assets/a480b843-0144-416e-a33b-41d5d6a8ef37" />
-Problem is lithium is scarce in the nature. Then, it's important to optimize batteries, for reducing as much as possible the lithium waste.
+Problem is lithium is scarce in the nature. Then, it's important to optimize batteries, for reducing as much as possible the lithium waste. That's why this toy model is designed as a starting point for a program able to simulate battery electrical behavior and efficiency when using different materials combinations in anode, cathode and electrolyte, correspondent to the main parts of a functional battery. In this case, only electrical forces will be considered, ignoring chemical reactions or disipative forces.
 
+Additional to the low disponibility problem, lithium has also presented heating problems, since it's highly volatile. In the code, a simulation of temperature due to electrical flux is presented, as an opportunity for determining specifical zones in which major danger may be presented, and for taking future preventive actions.
 
